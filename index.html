@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/css/main.css">
+    <title>Eventick</title>
+</head>
+
+<body>
+
+
+    <header class="header">
+        <div class="container">
+            <a class="header-icon-link" href="#">
+                <img class="navigation__logo" src="./assets/logo.svg" alt="logo"> </a>
+                <nav class="navigation__menu">
+                    <ul class="navigation__list">
+                        <li class="navigation__list-item tabindex="0"">
+                            <a href="#concerts" class="navigation__link tabindex="0"">Schedule</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="#blog" class="navigation__link" tabindex="0">Speakers</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="#form" class="navigation__link" tabindex="0">Ticket</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="#contact" class="navigation__link" tabindex="0">Contact</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="header__button" tabindex="0">Login</button>
+                </nav>
+                
+        </div>
+    </header>
+
+
+
+
+    <main class="main">
+
+        <section class="banner_sec">
+            <div class="container">
+                <div class="banner_sec_wpr">
+                    <div class="banner_sec_main">
+                        <div class="banner_left_img">
+                            <div class="banner_left_img_wpr">
+                                <figure>
+                                    <img src="./assets/kpop.png" alt="banner image">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="banner_right_text">
+                            <div class="banner_right_text_wpr">
+                                <div class="banner_right_text_top">
+                                    <h1>SBS MTV The Kpop Show Ticket Package</h1>
+                                    <p>Look no further! Our SBS The Show tickets are the simplest way for you to
+                                        experience a live Kpop recording.</p>
+                                </div>
+                                <div class="banner_right_btn">
+                                    <ul>
+                                        <li><a href="#" class="red_btn" tabindex="0">Get Ticket</a></li>
+                                        <li><a href="#" class="white_btn" tabindex="0">Learn More</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+
+
+
+
+        <section class="form">
+            <div class="container">
+                <div id="form" class="form__items">
+                    <div class="form__search">
+                        <label for="form__input-search">Search Event</label><br>
+                        <input name="search" type="text" id="form__input-search" class="form__input"
+                            value="Konser Jazz"  tabindex="0">
+                    </div>
+
+                    <div class="form__place">
+                        <label for="form__input-place">Place</label><br>
+                        <input name="place" type="text" id="form__input-place" class="form__input" value="Indonesia" tabindex="0">
+                    </div>
+
+
+
+                    <form class="form__place" >
+                        <label for="Time">Time</label><br>
+                        <select name="Time" class="form__input-time" id="Time" tabindex="0">
+                            <option value="Any date" selected>Any date</option>
+                            <option value="APR">APR</option>
+                            <option value="AUG">AUG</option>
+                            <option value="SEP">SEP</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="events">
+            <div class="container">
+                <div id="concerts" class="Upcoming_events">
+                    <h2 class="events__headline">Upcoming Events</h2>
+
+                    <select class="events__weekdays" >
+                        <option value="" selected disabled>Weekdays</option>
+                        <option value="0" class="each_option">0</option>
+                        <option value="1" class="each_option">1</option>
+                    </select>
+
+                    <select class="events__weekdays" >
+                        <option value="" selected disabled>Event Type</option>
+                        <option value="0" class="each_option">0</option>
+                        <option value="1" class="each_option">1</option>
+                    </select>
+
+                    <select class="events__weekdays" >
+                        <option value="" selected disabled>Any Category</option>
+                        <option value="0" class="each_option">0</option>
+                        <option value="1" class="each_option">1</option>
+                    </select>
+                </div>
+
+
+
+                <div class="card-container">
+                    <div class="card">
+                        <div class="cards__background">
+                            <img src="./assets/concert.png" alt="html image" >
+                        </div>
+                        <div class="cards__text-container">
+                            <div class="cards__text-container__date">
+                                <span>APR</span>
+                                <p>14</p>
+                            </div>
+                            <div class="cards__text-container__text">
+                                <h3>Wonder Girls 2010 Wonder Girls World Tour San Francisco</h3>
+                                <p>We’ll get you directly seated and inside for you to enjoy the show.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cards__background">
+                            <img src="./assets/concert2.png" alt="html image" >
+                        </div>
+                        <div class="cards__text-container">
+                            <div class="cards__text-container__date">
+                                <span>APR</span>
+                                <p>14</p>
+                            </div>
+                            <div class="cards__text-container__text">
+                                <h3>Wonder Girls 2010 Wonder Girls World Tour San Francisco</h3>
+                                <p>We’ll get you directly seated and inside for you to enjoy the show.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cards__background">
+                            <img src="./assets/concert3.png" alt="html image" >
+                        </div>
+                        <div class="cards__text-container">
+                            <div class="cards__text-container__date">
+                                <span>APR</span>
+                                <p>14</p>
+                            </div>
+                            <div class="cards__text-container__text">
+                                <h3>Wonder Girls 2010 Wonder Girls World Tour San Francisco</h3>
+                                <p>We’ll get you directly seated and inside for you to enjoy the show.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cards__background">
+                            <img src="./assets/concert4.png" alt="html image" >
+                        </div>
+                        <div class="cards__text-container">
+                            <div class="cards__text-container__date">
+                                <span>APR</span>
+                                <p>14</p>
+                            </div>
+                            <div class="cards__text-container__text">
+                                <h3>Wonder Girls 2010 Wonder Girls World Tour San Francisco</h3>
+                                <p>We’ll get you directly seated and inside for you to enjoy the show.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cards__background">
+                            <img src="./assets/concert5.png" alt="html image" >
+                        </div>
+                        <div class="cards__text-container">
+                            <div class="cards__text-container__date">
+                                <span>APR</span>
+                                <p>14</p>
+                            </div>
+                            <div class="cards__text-container__text">
+                                <h3>Wonder Girls 2010 Wonder Girls World Tour San Francisco</h3>
+                                <p>We’ll get you directly seated and inside for you to enjoy the show.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cards__background">
+                            <img src="./assets/concert6.png" alt="html image">
+                        </div>
+                        <div class="cards__text-container">
+                            <div class="cards__text-container__date">
+                                <span>APR</span>
+                                <p>14</p>
+                            </div>
+                            <div class="cards__text-container__text">
+                                <h3>Wonder Girls 2010 Wonder Girls World Tour San Francisco</h3>
+                                <p>We’ll get you directly seated and inside for you to enjoy the show.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_bot">
+                    <button class="card__bottom">Load More</button>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+        <section class="create">
+            <div class="container">
+                <img class="create__img" src="./assets/create-events.png" alt="">
+                <div class="create_text-container">
+                    <h3 class="create__headline">Make your own Event </h3>
+                    <p class="create__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+
+                <button class="create__button">Create Events</button>
+            </div>
+        </section>
+
+
+
+        <section class="brands">
+            <div class="container">
+                <div class="brands__text-cont">
+                    <h3 class="brands__headline">Join these brands</h3>
+                    <p class="brands__description">We've had the pleasure of working with industry-defining brands.
+                        These  are
+                        just some of them.</p>
+                </div>
+
+              
+                <div class="brands__images">
+                    <a href="">
+                        <img src="./assets/spotify.jpg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img class="brands__img" src="./assets/google.jpg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img class="brands__img" src="./assets/stripe.jpg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img class="brands__img" src="./assets/youtube.jpg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img class="brands__img" src="./assets/microsoft.jpg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img class="brands__img" src="./assets/medium.jpg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img class="brands__img" src="./assets/zoom.jpg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img class="brands__img" src="./assets/uber.jpg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img class="brands__img" src="./assets/grab.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="blog">
+            <div class="container">
+                <div id="blog" class="blog__text-container">
+                    <h3 class="blog__name">BLOG</h3>
+                    <p class="blog__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="blog__article-cont">
+                    <div class="blog__article">
+                        <img class="blog__article-img" src="./assets/blog1.png" alt="">
+                        <h3 class="blog__article-description">6 Strategies to Find Your Conference Keynote and Other
+                            Speakers
+                        </h3>
+                        <p class="blog__article-text">Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama
+                            Bostiketbos. Hanya perlu mengikuti
+                            beberapa langkah mudah.</p>
+                        <p class="blog__article-date">12 Mar - Jhon Doe</p>
+                    </div>
+
+                    <div class="blog__article">
+                        <img class="blog__article-img" src="./assets/blog2.png" alt="">
+                        <h3 class="blog__article-description">How Successfully Used Paid Marketing to Drive Incremental
+                            Ticket
+                            Sales</h3>
+                        <p class="blog__article-text">Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama
+                            Bostiketbos. Hanya perlu mengikuti
+                            beberapa langkah mudah.</p>
+                        <p class="blog__article-date">12 Mar - Jhon Doe</p>
+                    </div>
+
+                    <div class="blog__article">
+                        <img class="blog__article-img" src="./assets/blog3.png" alt="">
+                        <h3 class="blog__article-description">Introducing Workspaces: Work smarter, not harder with new
+                            navigation</h3>
+                        <p class="blog__article-text">Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama
+                            Bostiketbos. Hanya perlu mengikuti
+                            beberapa langkah mudah.</p>
+                        <p class="blog__article-date">12 Mar - Jhon Doe</p>
+                    </div>
+                </div>
+
+                <div class="blog-bot">
+                    <button class="blog__bottom">Load More</button>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+
+
+    <footer class="footer-section">
+        <div>
+            <div id="contact" class="footer-container">
+                <div class="footer-container__logo-container header-container">
+                    <img class="footer__logo" src="./assets/logo.svg" alt="">
+                    <p>Eventick is a global self-service ticketing platform for live experiences that allows anyone
+                        to
+                        create, share, find and attend events that fuel their passions and enrich their lives.</p>
+                    <div class="contacts__icons-all">
+                        <a href="">
+                            <img class="contacts__icons" src="./assets/facebook.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img class="contacts__icons" src="./assets/twitter.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img class="contacts__icons" src="./assets/linkedin.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-container__plan">
+                    <h3 class="footer-container__plan-headline">Plan Events</h3>
+                    <ul>
+                        <li>Create and Set Up</li>
+                        <li>Sell Tickets</li>
+                        <li>Online RSVP</li>
+                        <li>Online Events</li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-container__enverick">
+                    <h3 class="footer-container__enverick-text">Eventick</h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Press</li>
+                        <li>Contac Us</li>
+                        <li>Help Center</li>
+                        <li>How it Works</li>
+                        <li>Privacy</li>
+                        <li>Terms</li>
+                    </ul>
+                </div>
+                <div class="footer-container__subscribe">
+                    <h3>Stay in the loop</h3>
+                    <p>Join our mailing list to stay in the loop with our newest for Event and concert</p>
+                    <form class="footer__cont-subscribe-field-email">
+                        <input type="text" class="footer__cont-subscribe-field-email-reg"
+                            placeholder="Enter your email address.." >
+                        <input type="submit" class="footer__cont-subscribe-field-email-sub" value="Subscibe Now">
+                    </form>
+                </div>
+            </div>
+            <div class="breake-line"></div>
+            <div class="footer-copyright">Copyright © 2022 Avi Yansah</div>
+
+</div>
+    </footer>
+
+</body>
+
+</html>
